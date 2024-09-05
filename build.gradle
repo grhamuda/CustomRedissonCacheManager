@@ -18,8 +18,8 @@ repositories {
 }
 
 dependencies {
+  implementation 'org.projectlombok:lombok:1.18.34'
   implementation 'org.redisson:redisson:3.20.1'
-  implementation 'org,redisson:redisson-spring-boot-starter:3.20.1'
   implementation 'org.redisson:redisson-spring-data-30:3.20.1'
 
   implementation 'org.springframework.boot:spring-boot-starter-web'
